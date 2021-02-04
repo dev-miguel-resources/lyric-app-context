@@ -17,7 +17,7 @@ const App = () => (
           <Songs />
         </SongsContextProvider>
       </Route>
-      <Route path="/lyrics/track/:commontack_id">
+      <Route path="/lyrics/track/:commontrack_id">
         <LyricsContextProvider>
           <Lyrics />
         </LyricsContextProvider>
