@@ -18,6 +18,7 @@ const Tracks = ({ tracks, text }) => (
           return (
             <Track
               key={commontrack_id}
+              commontrack_id={commontrack_id}
               track_name={track_name}
               album_name={album_name}
               artist_name={artist_name}
