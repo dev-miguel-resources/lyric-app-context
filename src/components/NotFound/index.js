@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Message from './../Common/Message';
+import ButtonPrimary from './../Common/ButtonPrimary';
 
 const NotFound = () => (
-    <p>Hola soy el NotFound</p>
+    <Fragment>
+        <Message text="404: URL Not Found" />
+        <ButtonPrimary type="back" to="/" />
+    </Fragment>
 );
+
+NotFound.displayName = 'NotFound';
 
 export default NotFound;

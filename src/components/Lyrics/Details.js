@@ -26,7 +26,7 @@ const Details = ({ track, lyrics }) => {
       <br />
       <br />
       {lyricsParagraphs.map((lyricsParagraph, index) =>
-        lyricsParagraph === '' || lyricsParagraph === '...' ? (
+        lyricsParagraph === "" || lyricsParagraph === "..." ? (
           <br key={index} />
         ) : (
           <p key={index}>{lyricsParagraph}</p>
@@ -45,7 +45,7 @@ const Details = ({ track, lyrics }) => {
         )}
         <li>
           <strong>Explicit Words: </strong>
-          <span>{explicit === 0 ? 'Yes' : 'No'}</span>
+          <span>{explicit === 0 ? "Yes" : "No"}</span>
         </li>
         {release_date !== "Invalid Date" && (
           <li>
